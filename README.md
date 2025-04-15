@@ -1,6 +1,3 @@
-# Re-creating the README file for the AI Technical Writer Portfolio after kernel reset
-
-technical_writer_readme = """
 # 📝 AI Technical Writer Portfolio – Toyin Oteri
 
 Welcome! I’m Toyin Oteri – a certified project manager and technical content specialist with a strong foundation in generative AI tools, documentation systems, and content QA. This portfolio showcases structured writing samples that demonstrate clarity, technical accuracy, and usability for both developer and non-technical audiences.
@@ -58,10 +55,3 @@ With 6+ years of experience across video production, QA, and cross-functional pr
 
 > *I help make technical information usable, scalable, and human-friendly—one doc at a time.*
 """
-
-# Save the README file
-tech_writer_readme_path = "/mnt/data/README_technical_writer.md"
-with open(tech_writer_readme_path, "w") as f:
-    f.write(technical_writer_readme)
-
-tech_writer_readme_path
