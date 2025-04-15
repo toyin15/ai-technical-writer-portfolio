@@ -1,18 +1,67 @@
-# Toyin Oteri – AI Technical Writer Portfolio
+# Re-creating the README file for the AI Technical Writer Portfolio after kernel reset
 
-Hi! I'm Toyin Oteri, a certified project manager and creative operations specialist focused on AI and content systems. This portfolio includes selected writing samples demonstrating my ability to document complex tools, workflows, and systems.
+technical_writer_readme = """
+# 📝 AI Technical Writer Portfolio – Toyin Oteri
 
-## 📂 Samples
+Welcome! I’m Toyin Oteri – a certified project manager and technical content specialist with a strong foundation in generative AI tools, documentation systems, and content QA. This portfolio showcases structured writing samples that demonstrate clarity, technical accuracy, and usability for both developer and non-technical audiences.
 
-### 📄 [TitleGen AI – API Reference](./API-Docs/titlegen_api_reference.md)
-Simulated API documentation for a fictional AI-based video title generator. Includes sample request/response and usage notes.
-
-### 📄 [AI-Augmented YouTube Content Workflow (SOP)](./SOPs/youtube_sop_workflow.md)
-Standard operating procedure showing how I scaled YouTube content production using Claude and ChatGPT.
-
-### 📄 [Claude Workflow Assistant v1.3 – Release Notes](./Release-Notes/claude_release_notes.md)
-Mock changelog demonstrating my ability to write product release updates for internal tools.
+📧 toyin1596@gmail.com · [LinkedIn](https://linkedin.com/in/toyinoteri)
 
 ---
 
-🔗 [LinkedIn](https://linkedin.com/in/toyinoteri) · 📬 toyin1596@gmail.com
+## 🧾 Portfolio Samples
+
+### 1. 📘 API Reference Documentation  
+**Title:** `TitleGen AI – YouTube Title Generator API`  
+- A fictional REST API reference guide for a generative tool  
+- Structured using standard sections (endpoint, headers, body, sample responses)  
+- Demonstrates clear and concise documentation for technical teams  
+→ [View the API Guide](./titlegen_api_reference.md)
+
+---
+
+### 2. 🧠 SOP Documentation  
+**Title:** `AI-Augmented YouTube Content Workflow`  
+- An internal-style SOP that outlines an AI-powered content creation pipeline  
+- Covers team responsibilities, tools used, and step-by-step breakdowns  
+- Includes formatting consistency and repeatable structure  
+→ [View the SOP](./youtube_sop_workflow.md)
+
+---
+
+### 3. 🔄 Changelog + Release Notes  
+**Title:** `Claude Model Updates – Internal Release Notes`  
+- A fictional changelog for an LLM product update  
+- Shows structured formatting, version tracking, and impact highlights  
+- Reflects knowledge of how to communicate updates across technical and non-technical audiences  
+→ [View the Release Notes](./claude_release_notes.md)
+
+---
+
+## 🔧 Tools & Platforms
+
+- **Docs & Formatting:** Markdown, Google Docs, Notion  
+- **AI Tools:** Claude, ChatGPT, Gemini, DeepSeek  
+- **Project Tools:** Trello, Notion, Confluence, Frame.io  
+- **Documentation Style:** API Writing • Internal SOPs • Release Notes • Use Cases
+
+---
+
+## 🧠 About Me
+
+With 6+ years of experience across video production, QA, and cross-functional project delivery, I specialize in bridging the gap between technical tools and accessible, scalable documentation. My work supports AI teams, internal users, and cross-functional stakeholders.
+
+📧 toyin1596@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/toyinoteri)
+
+---
+
+> *I help make technical information usable, scalable, and human-friendly—one doc at a time.*
+"""
+
+# Save the README file
+tech_writer_readme_path = "/mnt/data/README_technical_writer.md"
+with open(tech_writer_readme_path, "w") as f:
+    f.write(technical_writer_readme)
+
+tech_writer_readme_path
